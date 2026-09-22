@@ -15,11 +15,11 @@
 
 <br />
 
-## `$ cat sobre.md`
+## `$ cat about.md`
 
-Sou **desenvolvedor full-stack** e trabalho com **TypeScript, React, Node.js, Express e PostgreSQL**.
+I'm a **full-stack developer** working with **TypeScript, React, Node.js, Express and PostgreSQL**.
 
-Gosto de aprender o tempo todo e, ultimamente, tenho estudado **IA** e como usá-la no desenvolvimento de software.
+Lately I've been focused on **AI-assisted software engineering**: using LLMs and coding agents across the development workflow, from design and implementation to code review, testing and refactoring.
 
 <br />
 
@@ -27,15 +27,15 @@ Gosto de aprender o tempo todo e, ultimamente, tenho estudado **IA** e como usá
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,express,postgres,html,css&theme=dark&perline=8" alt="stack principal" />
+    <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,express,postgres,html,css&theme=dark&perline=8" alt="main stack" />
   </a>
 </p>
 
-<sub>também uso</sub>
+<sub>also using</sub>
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,go,rust,bash,linux,git,github,vscode&theme=dark&perline=8" alt="outras ferramentas" />
+    <img src="https://skillicons.dev/icons?i=python,go,rust,bash,linux,git,github,vscode&theme=dark&perline=8" alt="other tools" />
   </a>
 </p>
 
@@ -49,7 +49,7 @@ Gosto de aprender o tempo todo e, ultimamente, tenho estudado **IA** e como usá
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=mateusands&background=0D0D0D&border=262626&stroke=3D3D3D&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=A3A3A3&dates=6B6B6B&locale=pt_BR" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=mateusands&background=0D0D0D&border=262626&stroke=3D3D3D&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=A3A3A3&dates=6B6B6B" alt="GitHub Streak" />
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ Gosto de aprender o tempo todo e, ultimamente, tenho estudado **IA** e como usá
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./profile/snake-light.svg" />
-    <img alt="cobrinha comendo as contribuições" src="./profile/snake-dark.svg" />
+    <img alt="snake eating contributions" src="./profile/snake-dark.svg" />
   </picture>
 </p>
 
@@ -79,7 +79,7 @@ Gosto de aprender o tempo todo e, ultimamente, tenho estudado **IA** e como usá
   <a href="https://github.com/mateusands"><img src="https://img.shields.io/badge/-github.com%2Fmateusands-000000?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
-Aberto a conversar sobre vagas e projetos.
+Open to new opportunities and collaborations.
 
 <br />
 

@@ -1,4 +1,4 @@
-"""Gera profile/activity.svg: contribuições dos últimos 31 dias, em preto e branco."""
+"""Generates profile/activity.svg: contributions over the last 31 days, in black and white."""
 
 import json
 import os
@@ -64,8 +64,8 @@ def render(days):
         '<stop offset="0" stop-color="#fff" stop-opacity=".28"/>'
         '<stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>',
         f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="12" fill="#0d0d0d" stroke="#262626"/>',
-        f'<text x="{left}" y="44" font-size="18" font-weight="700" fill="#fff">atividade · últimos {DAYS} dias</text>',
-        f'<text x="{W - right}" y="44" font-size="14" fill="#6b6b6b" text-anchor="end">{sum(counts)} contribuições</text>',
+        f'<text x="{left}" y="44" font-size="18" font-weight="700" fill="#fff">activity · last {DAYS} days</text>',
+        f'<text x="{W - right}" y="44" font-size="14" fill="#6b6b6b" text-anchor="end">{sum(counts)} contributions</text>',
     ]
     for k in range(5):
         v = step * k
@@ -74,7 +74,7 @@ def render(days):
         out.append(f'<text x="{left - 12}" y="{gy + 4:.1f}" font-size="11" fill="#6b6b6b" text-anchor="end">{v}</text>')
     for i, d in enumerate(days):
         if i % 3 == 0 or i == len(days) - 1:
-            label = date.fromisoformat(d["date"]).strftime("%d/%m")
+            label = date.fromisoformat(d["date"]).strftime("%b %d")
             out.append(f'<text x="{x(i):.1f}" y="{H - 22}" font-size="11" fill="#6b6b6b" text-anchor="middle">{label}</text>')
     out.append(f'<polygon points="{area}" fill="url(#a)"/>')
     out.append(f'<polyline points="{line}" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>')

@@ -29,7 +29,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=mateusands&show_icons=true&include_all_commits=true&custom_title=Mateus%20no%20GitHub&${{ env.CARD }}
+          options: username=mateusands&show_icons=true&include_all_commits=true&custom_title=GitHub%20Stats&${{ env.CARD }}
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -37,7 +37,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=mateusands&layout=compact&langs_count=8&custom_title=Linguagens&${{ env.CARD }}
+          options: username=mateusands&layout=compact&langs_count=8&custom_title=Top%20Languages&${{ env.CARD }}
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -64,5 +64,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile
           git diff --cached --quiet && exit 0
-          git commit -m "chore: atualiza cards do perfil"
+          git commit -m "chore: update profile cards"
           git push
