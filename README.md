@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=FFFFFF&center=true&vCenter=true&width=720&lines=Full-Stack+Developer;TypeScript+%C2%B7+React+%C2%B7+Node.js;Express+%C2%B7+PostgreSQL;do+banco+de+dados+ao+pixel." alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=FFFFFF&center=true&vCenter=true&width=720&lines=Full-Stack+Developer;TypeScript+%C2%B7+React+%C2%B7+Node.js;Express+%C2%B7+PostgreSQL" alt="typing" />
 </p>
 
 <p align="center">
@@ -20,15 +20,6 @@
 Sou **desenvolvedor full-stack** e trabalho com **TypeScript, React, Node.js, Express e PostgreSQL**.
 
 Gosto de aprender o tempo todo e, ultimamente, tenho estudado **IA** e como usá-la no desenvolvimento de software.
-
-```ts
-const mateus = {
-  role: "Full-Stack Developer",
-  stack: ["TypeScript", "React", "Node.js", "Express", "PostgreSQL"],
-  alsoWrites: ["Python", "Go", "Rust", "Shell"],
-  os: "Linux",
-};
-```
 
 <br />
 
