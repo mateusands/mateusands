@@ -1,4 +1,4 @@
-"""Baixa os troféus e converte para escala de cinza (nenhum tema do serviço é preto e branco)."""
+"""Downloads the trophy card and converts it to grayscale (none of the service themes is black and white)."""
 
 import re
 import sys
@@ -15,7 +15,7 @@ with urllib.request.urlopen(URL, timeout=60) as res:
     svg = res.read().decode()
 
 if "<svg" not in svg:
-    sys.exit("resposta inesperada do serviço de troféus")
+    sys.exit("unexpected response from the trophy service")
 
 gray = (
     '<defs><filter id="gs"><feColorMatrix type="saturate" values="0"/></filter></defs>'
