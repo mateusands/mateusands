@@ -1,0 +1,116 @@
+name: profile
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ["profile/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: true
+
+env:
+  CARD: bg_color=0d0d0d&title_color=ffffff&text_color=c9c9c9&icon_color=ffffff&ring_color=ffffff&border_color=262626
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=mateusands&show_icons=true&include_all_commits=true&custom_title=Mateus%20no%20GitHub&${{ env.CARD }}
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Top languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=mateusands&layout=compact&langs_count=8&custom_title=Linguagens&${{ env.CARD }}
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin Zugzwang
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=mateusands&repo=Zugzwang&description_lines_count=3&${{ env.CARD }}
+          path: profile/pin-zugzwang.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin transmitir-100mil
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=mateusands&repo=transmitir-100mil&description_lines_count=3&${{ env.CARD }}
+          path: profile/pin-transmitir-100mil.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin open-m711pro
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=mateusands&repo=open-m711pro&description_lines_count=3&${{ env.CARD }}
+          path: profile/pin-open-m711pro.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin open-ek75
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=mateusands&repo=open-ek75&description_lines_count=3&${{ env.CARD }}
+          path: profile/pin-open-ek75.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin flag-rush
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=mateusands&repo=flag-rush&description_lines_count=3&${{ env.CARD }}
+          path: profile/pin-flag-rush.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pin pdf-tool
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=mateusands&repo=pdf-tool&description_lines_count=3&${{ env.CARD }}
+          path: profile/pin-pdf-tool.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Activity graph
+        run: python3 scripts/activity.py profile/activity.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Trophies
+        run: python3 scripts/trophy.py profile/trophy.svg
+        continue-on-error: true
+
+      - name: Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: mateusands
+          outputs: |
+            profile/snake-light.svg?color_snake=#000000&color_dots=#ebedf0,#c4c4c4,#8a8a8a,#4d4d4d,#1a1a1a
+            profile/snake-dark.svg?palette=github-dark&color_snake=#ffffff&color_dots=#161616,#3d3d3d,#6b6b6b,#a3a3a3,#ffffff
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: atualiza cards do perfil"
+          git push
