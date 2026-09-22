@@ -41,54 +41,6 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Pin Zugzwang
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=mateusands&repo=Zugzwang&description_lines_count=3&${{ env.CARD }}
-          path: profile/pin-zugzwang.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Pin transmitir-100mil
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=mateusands&repo=transmitir-100mil&description_lines_count=3&${{ env.CARD }}
-          path: profile/pin-transmitir-100mil.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Pin open-m711pro
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=mateusands&repo=open-m711pro&description_lines_count=3&${{ env.CARD }}
-          path: profile/pin-open-m711pro.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Pin open-ek75
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=mateusands&repo=open-ek75&description_lines_count=3&${{ env.CARD }}
-          path: profile/pin-open-ek75.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Pin flag-rush
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=mateusands&repo=flag-rush&description_lines_count=3&${{ env.CARD }}
-          path: profile/pin-flag-rush.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Pin pdf-tool
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=mateusands&repo=pdf-tool&description_lines_count=3&${{ env.CARD }}
-          path: profile/pin-pdf-tool.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Activity graph
         run: python3 scripts/activity.py profile/activity.svg
         env:
