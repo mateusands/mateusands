@@ -35,8 +35,11 @@ Lately I've been focused on **AI-assisted software engineering**: using LLMs and
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,go,rust,bash,linux,git,github,vscode&theme=dark&perline=8" alt="other tools" />
+    <img src="https://skillicons.dev/icons?i=python,go,rust,bash,linux,git,github,vscode,docker,sqlite,prometheus,grafana&theme=dark&perline=8" alt="other tools" />
   </a>
+  <br />
+  <img src="https://img.shields.io/badge/MariaDB-000000?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB" />
+  <img src="https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
 </p>
 
 <br />
