@@ -41,11 +41,6 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Activity graph
-        run: python3 scripts/activity.py profile/activity.svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Trophies
         run: python3 scripts/trophy.py profile/trophy.svg
         continue-on-error: true

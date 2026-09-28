@@ -44,6 +44,64 @@ Lately I've been focused on **AI-assisted software engineering**: using LLMs and
 
 <br />
 
+## `$ ls ~/work`
+
+Production systems I built. Code and documentation are private.
+
+<table>
+  <tr>
+    <td colspan="3">
+      <h3>BPX Connect</h3>
+      AI-powered customer service platform, multi-tenant and multi-brand.
+      <ul>
+        <li>Channel-agnostic message orchestrator with BullMQ and Redis queues that receives conversations, triages them and routes each one to the right flow</li>
+        <li>AI pipeline with RAG, persistent memory and grounding against made-up answers, keeping support running 24/7</li>
+        <li>Classification of sensitive Responsible Gambling topics, using rules and semantic analysis</li>
+        <li>Knowledge base importer with deduplication and daily sync, plus a visual Flow Builder for designing flows</li>
+      </ul>
+      <img src="https://img.shields.io/badge/private_code-000000?style=flat-square&logo=github&logoColor=white" alt="private code" />
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Multi-brand webchat</h3>
+      A single codebase generates each brand's widget, integrated with the bot and human support. Brand routing is handled with TaskRouter.
+      <br /><br />
+      <img src="https://img.shields.io/badge/private_code-000000?style=flat-square&logo=github&logoColor=white" alt="private code" />
+    </td>
+    <td width="33%" valign="top">
+      <h3>BPX Safe</h3>
+      Responsible Gambling logging and tracking system that replaced spreadsheet-based control, with a full audit trail.
+      <br /><br />
+      <img src="https://img.shields.io/badge/private_code-000000?style=flat-square&logo=github&logoColor=white" alt="private code" />
+    </td>
+    <td width="33%" valign="top">
+      <h3>VIBEBPX</h3>
+      Internal social network with feed, stories, chat and connections with colleagues from other departments. Peer recognition earns points redeemable in a rewards store, with rankings and goals per department.
+      <br /><br />
+      <img src="https://img.shields.io/badge/private_code-000000?style=flat-square&logo=github&logoColor=white" alt="private code" />
+    </td>
+  </tr>
+</table>
+
+<sub>stack behind these projects</sub>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/PostgreSQL_%2B_pgvector-000000?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL + pgvector" />
+  <img src="https://img.shields.io/badge/Redis-000000?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/BullMQ-000000?style=flat-square" alt="BullMQ" />
+  <img src="https://img.shields.io/badge/OpenAI-000000?style=flat-square" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/WebSockets-000000?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
+  <img src="https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Cloudflare-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+</p>
+
+<br />
+
 ## `$ git log --stats`
 
 <p align="center">
@@ -53,10 +111,6 @@ Lately I've been focused on **AI-assisted software engineering**: using LLMs and
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=mateusands&background=0D0D0D&border=262626&stroke=3D3D3D&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=A3A3A3&dates=6B6B6B" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="./profile/activity.svg" alt="Activity Graph" width="100%" />
 </p>
 
 <p align="center">
