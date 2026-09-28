@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.linkedin.com/in/mateusands/">
+  <a href="https://mateusands.github.io/">
     <img src="./assets/banner.svg" alt="Mateus Andrade — Full-Stack Developer" width="100%" />
   </a>
 </p>
@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://mateusands.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/mateusands/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/mateusands"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
@@ -132,6 +133,7 @@ Production systems I built. Code and documentation are private.
 ## `$ ping mateus`
 
 <p align="left">
+  <a href="https://mateusands.github.io/"><img src="https://img.shields.io/badge/-mateusands.github.io-000000?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/mateusands/"><img src="https://img.shields.io/badge/-linkedin.com%2Fin%2Fmateusands-000000?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/mateusands"><img src="https://img.shields.io/badge/-github.com%2Fmateusands-000000?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
