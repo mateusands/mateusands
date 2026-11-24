@@ -28,7 +28,7 @@ Lately I've been focused on **AI-assisted software engineering**: using LLMs and
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,express,postgres,html,css&theme=dark&perline=8" alt="main stack" />
+    <img src="https://skillicons.dev/icons?i=ts,js,python,react,nodejs,express,postgres,html,css&theme=dark&perline=9" alt="main stack" />
   </a>
 </p>
 
@@ -36,69 +36,13 @@ Lately I've been focused on **AI-assisted software engineering**: using LLMs and
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,go,rust,bash,linux,git,github,vscode,docker,sqlite,prometheus,grafana&theme=dark&perline=8" alt="other tools" />
+    <img src="https://skillicons.dev/icons?i=linux,bash,docker,nginx,cloudflare,githubactions,prometheus,grafana,redis,sqlite,go,rust,git,github,vscode&theme=dark&perline=15" alt="also using" />
   </a>
   <br />
+  <img src="https://img.shields.io/badge/Proxmox-000000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox" />
+  <img src="https://img.shields.io/badge/PM2-000000?style=for-the-badge&logo=pm2&logoColor=white" alt="PM2" />
   <img src="https://img.shields.io/badge/MariaDB-000000?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB" />
   <img src="https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-</p>
-
-<br />
-
-## `$ ls ~/work`
-
-Production systems I built. Code and documentation are private.
-
-<table>
-  <tr>
-    <td colspan="3">
-      <h3>AI customer service platform</h3>
-      Multi-tenant, multi-brand support platform with AI handling conversations end to end.
-      <ul>
-        <li>Channel-agnostic message orchestrator with BullMQ and Redis queues that receives conversations, triages them and routes each one to the right flow</li>
-        <li>AI pipeline with RAG, persistent memory and grounding against made-up answers, keeping support running 24/7</li>
-        <li>Detection of sensitive topics that need special handling, using rules and semantic analysis</li>
-        <li>Knowledge base importer with deduplication and daily sync, plus a visual Flow Builder for designing flows</li>
-      </ul>
-      <img src="https://img.shields.io/badge/private_code-000000?style=flat-square&logo=github&logoColor=white" alt="private code" />
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>Multi-brand webchat</h3>
-      A single codebase generates each brand's widget, integrated with the bot and human support. Brand routing is handled with TaskRouter.
-      <br /><br />
-      <img src="https://img.shields.io/badge/private_code-000000?style=flat-square&logo=github&logoColor=white" alt="private code" />
-    </td>
-    <td width="33%" valign="top">
-      <h3>Internal audit system</h3>
-      Internal security audit system that automated a process previously run on spreadsheets, with logging, tracking and a full audit trail.
-      <br /><br />
-      <img src="https://img.shields.io/badge/private_code-000000?style=flat-square&logo=github&logoColor=white" alt="private code" />
-    </td>
-    <td width="33%" valign="top">
-      <h3>Internal social network</h3>
-      Internal social network with feed, stories, chat and connections with colleagues from other departments. Peer recognition earns points redeemable in a rewards store, with rankings and goals per department.
-      <br /><br />
-      <img src="https://img.shields.io/badge/private_code-000000?style=flat-square&logo=github&logoColor=white" alt="private code" />
-    </td>
-  </tr>
-</table>
-
-<sub>stack behind these projects</sub>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/PostgreSQL_%2B_pgvector-000000?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL + pgvector" />
-  <img src="https://img.shields.io/badge/Redis-000000?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/BullMQ-000000?style=flat-square" alt="BullMQ" />
-  <img src="https://img.shields.io/badge/OpenAI-000000?style=flat-square" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/WebSockets-000000?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
-  <img src="https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Cloudflare-000000?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
 </p>
 
 <br />
